@@ -1,0 +1,11 @@
+numpy
+pandas
+torch
+scipy
+scikit-learn
+
+fastapi
+uvicorn
+pydantic
+
+faker
