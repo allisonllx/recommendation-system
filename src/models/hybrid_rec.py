@@ -6,11 +6,12 @@ import torch
 import torch.nn as nn
 from scipy.sparse import csr_matrix
 from sklearn.metrics.pairwise import cosine_similarity
+import sys
 
 # Import baseline recommenders
-from popularity_rec import PopularityRecommender
-from collaborative_rec import CollaborativeFilteringRecommender
-from item_centric_rec import ItemCentricAudienceFinder
+from .popularity_rec import PopularityRecommender
+from .collaborative_rec import CollaborativeFilteringRecommender
+from .item_centric_rec import ItemCentricAudienceFinder
 # from sasrec_rec import SASRecRecommender, SASRec
 
 # PART 1: Data Preprocessing
